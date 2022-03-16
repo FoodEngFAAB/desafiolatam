@@ -73,12 +73,12 @@ function cachipun(nombre, juegos) {
 
     // Reporta resultados
     if (juegosganados < juegosperdidos) {
-        alert(`Lo siento ${nombre}!!.\n\nGanaste ${juegosganados} de ${juegos}\n\nAunque hayas perdido, fue un gusto haber jugado contigo!!\n\n¡¡Hasta la próxima!!`)
+        alert(`En resumen:\nJuegos ganados: ${juegosganados}.\nJuegos perdidos: ${juegosperdidos}.\nJuegos empatados: ${juegosempatados}.\n\nLo siento ${nombre}, literalmente soy una "máquina".\nPero aunque hayas perdido, fue un gusto haber jugado contigo!!\n¡¡Hasta la próxima!!`)
     } else {
         if (juegosganados > juegosperdidos) {
-            alert(`¡¡Imbatible ${nombre}!!.\n\nGanaste ${juegosganados} de ${juegos}\n\n¡¡Un gusto haber jugado contigo!!\n\n¡¡Hasta la próxima!!`)
+            alert(`En resumen:\nJuegos ganados: ${juegosganados}.\nJuegos perdidos: ${juegosperdidos}.\nJuegos empatados: ${juegosempatados}.\n\n¡¡Imbatible ${nombre}!!.\n¡¡Un gusto haber jugado contigo!!\n¡¡Hasta la próxima!!`)
         } else {
-            alert(`¡¡Wow, casi, casi ${nombre}!!.\n\nEs un empate. Ganaste ${juegosganados} de ${juegos}\n\n¡¡Un gusto haber jugado contigo!!\n\n¡¡Hasta la próxima!!`)
+            alert(`En resumen:\nJuegos ganados: ${juegosganados}.\nJuegos perdidos: ${juegosperdidos}.\nJuegos empatados: ${juegosempatados}.\n\n¡¡Wow, casi, casi ${nombre}!!.\nEs un empate.\n¡¡Un gusto haber jugado contigo!!\n\n¡¡Hasta la próxima!!`)
         }
     }
 }
