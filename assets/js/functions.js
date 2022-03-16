@@ -61,7 +61,7 @@ function cachipun(nombre, juegos) {
             }
 
             //Mensaje al usuario jugador
-            alert(`${nombre}, en el juego ${contador} jugaste ${jugadortxt} (seleccionaste ${jugador}) y yo jugué ${maquinatxt} (aleatorio ${maquina})...\n\n${resultado}.\n\nLlevas ${juegosganados} de ${juegos} ganados.`)
+            alert(`${nombre}, jugaste ${jugadortxt} y yo jugué ${maquinatxt}...\n\n${resultado}.\n\nLlevas ${juegosganados} de ${juegos} ganados.`)
 
             //Actualiza el contador
             contador++
